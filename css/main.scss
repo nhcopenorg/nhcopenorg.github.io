@@ -1,0 +1,17 @@
+---
+---
+
+$colortheme: {{ site.color_theme }};
+$colormenu: {{ site.menu_color }};
+$colortext: {{ site.color_text }};
+$headerbackground: '{{ site.background_image_header }}';
+$baseurl: '{{ site.baseurl }}';
+
+@import "base";
+@import "menu";
+@import "header";
+@import "footer";
+@import "layout";
+@import "icons";
+@import "post";
+@import "breadcrumbs";

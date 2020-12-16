@@ -1,0 +1,32 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+port: 4005
+title: "NHC Openorg"
+email: mibasusero@gmail.com
+description: "NHC open org site."
+baseurl: ""
+url: "https://nhcopenorg.github.io/"
+twitter_username: ""
+github_username:  "jorgesanchezperez"
+color_theme:  "#566573" #"#d9230f"
+background_image_header: "../assets/img/unsplash.jpg" 
+menu_color: "#17202A"
+color_text:  "#fff"
+language:  "en"
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+plugins: 
+  - jekyll-paginate
+paginate: 5
+
+# Plugins
+plugins_dir:
+  - jekyll-admin
